@@ -1,0 +1,28 @@
+{
+  "name": "simple-web-server",
+  "version": "1.0.0",
+  "description": "It is a simple web server made using node js and express js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zonayedpca/node-simple-web-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "web-server"
+  ],
+  "author": "Zonayed Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zonayedpca/node-simple-web-server/issues"
+  },
+  "homepage": "https://github.com/zonayedpca/node-simple-web-server#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A simple Node JS Web Server - zonayedpca</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="row">
+                <div class="status">
+                    <p>You are in: <span class="loc"><%=req.params[0]%></span></p>
+                    <h2>It is up and running</h2>
+                    <p>This is a simple web server made by <a href="#">Zonayed Ahmed</a> using Node JS ad Express JS. Try to edit the url. Put something after slash('/') and see how does <a href="/welcome">this</a> thing work! Isn't it interesting?</p>
+                    <ul class="icon">
+                        <li><strong>NODE JS</strong></li>
+                        <li><strong>EXPRESS JS</strong></li>
+                        <li><strong>&lt;%= EJS %&gt;</strong></li>
+                    </ul>
+                    <ul class="icon">
+                        <li><a class="github-button" href="https://github.com/zonayedpca/node-simple-web-server" data-icon="octicon-star" data-size="large" aria-label="Star zonayedpca/node-simple-web-server on GitHub">Star</a></li>
+                        <li><a class="github-button" href="https://github.com/zonayedpca" aria-label="Follow @zonayedpca on GitHub" data-size="large">Follow @zonayedpca</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Github Plugin -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </body>
+</html>
